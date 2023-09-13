@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Modal Log In Card</title>
+</head>
+
+<body>
+    <header id="main-header">
+        <button id="btn-open" class="btn">Log In</button>
+    </header>
+
+    <section id="open-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-title">
+                <h2>Log in</h2>
+                <a href="#" id="btn-close"><i class="fa-solid fa-xmark"></i></a>
+            </div>
+
+            <form id="form-input">
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-control">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <button type="submit" id="btn-signin">Sign In</button>
+            </form>
+
+            <div class="redirect">
+                <a href="#">Forgot your email or password?</a>
+            </div>
+
+            <div class="new-member-content">
+                <p>New to Kljup? <a href="#" id="btn-signup">Sign up now</a>.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/f0b3d42456.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
